@@ -1,4 +1,8 @@
 # DockerizedPrj
+To run demo app with docker:
+>> docker build -t angular-docker .
+>> docker run -p 4201:4200 angular-docker
+open http://localhost:4201/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
